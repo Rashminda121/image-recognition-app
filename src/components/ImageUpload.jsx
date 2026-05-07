@@ -93,7 +93,7 @@ export default function ImageUpload() {
     handleImageChange(file);
   };
 
-  // Upload image to API
+  // Upload an image to API
   const uploadImage = async () => {
     if (!image || !imageBase64) return;
 
