@@ -345,13 +345,13 @@ export default function ImageUpload() {
               </div>
 
               {/* Raw Response */}
-              <div className="bg-slate-900 rounded-3xl p-5 overflow-auto">
+              {/* <div className="bg-slate-900 rounded-3xl p-5 overflow-auto">
                 <p className="text-slate-300 mb-3 text-sm">API Raw Response</p>
 
                 <pre className="text-green-400 text-xs whitespace-pre-wrap">
                   {JSON.stringify(response, null, 2)}
                 </pre>
-              </div>
+              </div> */}
             </div>
           )}
         </div>
