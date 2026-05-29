@@ -13,7 +13,7 @@ An image recognition service built with AWS Rekognition that detects objects, la
 Create a `.env` file in the project root and add the API URL for the image recognition backend:
 
 ```
-REACT_APP_IMAGE_RECOGNITION_API_URL=https://your-api-url.example.com/analyze-image
+REACT_APP_IMAGE_RECOGNITION_API_URL=https://api-url.example.com/analyze-image
 ```
 
 Restart the development server after updating `.env` so React picks up the new value.
